@@ -115,6 +115,35 @@ ul {
   border-radius: 15px;
 }
 
+/* QUOTE */
+
+.quote {
+  width: 1200px;
+  background-color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 65px 0;
+}
+
+.quote-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.quote-text {
+  font-size: 36px;
+  font-weight: 400;
+  font-style: italic;
+  color: #1f2937;
+  width: 600px;
+}
+
+.quote-signature {
+  font-weight: 900;
+  margin: 20px 0 0 auto;
+}
+
 /* BUTTONS */
 
 button {
