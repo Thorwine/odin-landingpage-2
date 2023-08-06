@@ -143,8 +143,9 @@ ul {
   margin-left: auto;
 }
 
-/* FOOTER */
-.footer {
+/* ACTION */
+
+.action {
   width: 1200px;
   background-color: white;
   padding: 65px 0;
@@ -152,7 +153,7 @@ ul {
   justify-content: center;
 }
 
-.footer-wrapper {
+.action-wrapper {
   width: 700px;
   background-color: #3882f6;
   padding: 30px 50px;
@@ -163,16 +164,26 @@ ul {
   gap: 70px;
 }
 
-.footer-text {
+.action-text {
   color: #f9faf8;
 }
 
-.footer-text-top {
+.action-text-top {
   font-weight: 900;
 }
 
-.footer-text-bottom {
+.action-text-bottom {
   font-size: 12px;
+}
+
+/* FOOTER */
+
+.footer {
+  background-color: #1f2937;
+  padding: 20px 0;
+  width: 1200px;
+  display: flex;
+  justify-content: center;
 }
 
 /* BUTTONS */
