@@ -35,7 +35,7 @@ h1,
 p,
 button,
 .header-links {
-  font-size: 18px;
+  font-size: 16px;
   color: #e5e7eb;
 }
 
@@ -113,6 +113,7 @@ ul {
   width: 150px;
   border: 3px solid #3882f6;
   border-radius: 15px;
+  margin-bottom: 10px;
 }
 
 /* QUOTE */
@@ -132,16 +133,48 @@ ul {
 }
 
 .quote-text {
-  font-size: 36px;
+  font-size: 32px;
   font-weight: 400;
   font-style: italic;
   color: #1f2937;
-  width: 600px;
+  width: 700px;
 }
 
 .quote-signature {
   font-weight: 900;
-  margin: 20px 0 0 auto;
+  margin-left: auto;
+}
+
+/* FOOTER */
+.footer {
+  width: 1200px;
+  background-color: white;
+  padding: 65px 0;
+  display: flex;
+  justify-content: center;
+}
+
+.footer-wrapper {
+  background-color: #3882f6;
+  width: 700px;
+  padding: 30px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 70px;
+  border-radius: 5px;
+}
+
+.footer-text {
+  color: #f9faf8;
+}
+
+.footer-text-top {
+  font-weight: 900;
+}
+
+.footer-text-bottom {
+  font-size: 12px;
 }
 
 /* BUTTONS */
@@ -157,4 +190,7 @@ button {
 
 .button-top {
   margin-top: 10px;
+}
+.button-down {
+  border: 1px solid white;
 }
