@@ -9,4 +9,4 @@
 **CSS** (Flexbox, Growing & Shrinking, Axes, Alignment, Selectors, Cascade, Box-Model, Block & Inline)<br><br>
 **Goal 2023**: Recreate the original design given by TOP just for some practice and refresh.<br><br>
 Start date: 06.08.2023<br>
-End date: ??.08.2022
+End date: 06.08.2022
