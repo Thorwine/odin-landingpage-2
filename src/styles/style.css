@@ -54,7 +54,6 @@ button,
 ul {
   list-style-type: none;
   display: flex;
-
   margin-left: auto;
   gap: 16px;
 }
@@ -67,7 +66,7 @@ ul {
   align-items: center;
 }
 
-.maintitle {
+.hero-maintitle {
   font-size: 48px;
   font-weight: 900;
 }
@@ -82,7 +81,6 @@ ul {
 .information-header {
   font-size: 36px;
   font-weight: 900;
-
   padding: 30px 0;
 }
 
@@ -155,14 +153,14 @@ ul {
 }
 
 .footer-wrapper {
-  background-color: #3882f6;
   width: 700px;
+  background-color: #3882f6;
   padding: 30px 50px;
+  border-radius: 5px;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 70px;
-  border-radius: 5px;
 }
 
 .footer-text {
