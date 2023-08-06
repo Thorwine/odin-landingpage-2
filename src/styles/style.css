@@ -8,7 +8,7 @@
 
 html {
   font-family: roboto;
-  background-color: gray;
+  background-color: #373f43;
 }
 
 body {
@@ -23,14 +23,12 @@ body {
 .hero {
   background-color: #1f2937;
   display: flex;
-  justify-content: center;
-  align-items: center;
   width: 1200px;
   padding: 15px 175px;
 }
 
-.header-logo,
-.maintitle {
+h1,
+.header-logo {
   color: #f9faf8;
 }
 
@@ -65,6 +63,8 @@ ul {
 
 .hero {
   gap: 36px;
+  padding-bottom: 65px;
+  align-items: center;
 }
 
 .maintitle {
@@ -72,10 +72,47 @@ ul {
   font-weight: 900;
 }
 
-img {
-  background-color: grey;
-  width: 350px;
-  height: 180px;
+/* INFORMATION */
+
+.information-header,
+.info p {
+  color: #1f2937;
+}
+
+.information-header {
+  font-size: 36px;
+  font-weight: 900;
+
+  padding: 30px 0;
+}
+
+.information {
+  background-color: white;
+  width: 1200px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-bottom: 65px;
+}
+
+.infos {
+  display: flex;
+  gap: 50px;
+}
+
+.info {
+  width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.infopic {
+  height: 150px;
+  width: 150px;
+  border: 3px solid #3882f6;
+  border-radius: 15px;
 }
 
 /* BUTTONS */
